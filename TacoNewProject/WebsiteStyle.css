@@ -1,22 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* ALL PAGES */
 body {
     font-family: Arial;
+    font-family: Arial, sans-serif;
     margin: 0;
     background-color: #ffdfbb;
+    background-color: #f7e3c8;
+    color: #2f2a26;
 }
 
 header {
     background-color: Red;
     color: Yellow;
+    background: repeating-linear-gradient( 90deg, #fff4cc 0px, #fff4cc 18px, #d9782d 18px, #d9782d 36px, #f3c7b4 36px, #f3c7b4 54px ) bottom / 100% 12px no-repeat, #b4432f;
+    color: #fff4cc;
     text-align: center;
     padding: 20px;
+    padding: 28px 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 1px;
+    font-family: 'Bree Serif', serif;
 }
 
 nav {
     background-color: #ff6a00;
+    background-color: #d9782d;
     text-align: center;
     padding: 10px;
+    padding: 16px 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
 }
-
 nav a {
     color: white;
     margin: 15px;
@@ -24,18 +42,75 @@ nav a {
     text-decoration: none;
 }
 
+nav a {
+    color: #fffaf2;
+    margin: 0 14px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+    color: #fff4cc;
+}
+
+.bottom {
+    background-color: #7a2f21;
+    color: #fff7f0;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
 nav a:hover {
     color: orange;
+    /*  header logo styling */
+}
+
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.sombrero-icon {
+    width: 55px;
+    height: auto;
 }
 
 .section {
     text-align: center;
     padding: 30px;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section h2 {
+    font-size: 42px;
+    margin-bottom: 18px;
+    color: #7a2f21;
+    font-family: 'Bree Serif', serif;
+}
+
+.section p {
+    font-size: 21px;
+    line-height: 1.7;
+    max-width: 950px;
+    margin: 0 auto;
 }
 
 .tabs {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
 }
 
 
@@ -45,16 +120,38 @@ nav a:hover {
     margin: 15px;
     padding: 15px;
     border: 1px solid red;
+    background-color: #f3c7b4;
+    width: 260px;
+    margin: 0;
+    padding: 22px;
+    border: 1px solid #d48a74;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tab:hover {
     transform: scale(1.05);
 }
 
+.tab:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.14);
+}
+
 .bottom {
     background-color: #6c0e0e;
     color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
 }
+
+.tab h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #7a2f21;
+    font-family: 'Bree Serif', serif;
+}
+
+.tab p {
+    font-size: 18px;
+}
+            
