@@ -16,5 +16,76 @@
         <a href="cvSalah.html">CV - Salah</a>
         <a href="cvMalik.html">CV - Malik</a>
     </nav>
+     <main class="contact-page">
+     <section class="contact-intro">
+         <h2>Contact Us</h2>
+         <p>
+             Have a question about our food, catering, specials, or family dining experience?
+             We would love to hear from you.
+         </p>
+     </section>
+
+     <section class="contact-container">
+         <div class="contact-info">
+             <h3>Restaurant Information</h3>
+             <p><strong>Phone:</strong> (313) 555-2486</p>
+             <p><strong>Email:</strong> elhermanostacos@email.com</p>
+             <p><strong>Address:</strong> 123 Main Street, Dearborn, MI 48120</p>
+
+             <h3>Hours</h3>
+             <p>Monday - Thursday: 11:00 AM - 9:00 PM</p>
+             <p>Friday - Saturday: 11:00 AM - 11:00 PM</p>
+             <p>Sunday: 12:00 PM - 8:00 PM</p>
+         </div>
+
+         <div class="contact-form-box">
+             <h3>Send Us a Message</h3>
+             <form action="submit.html" method="get">
+                 <div class="form-group">
+                     <label for="name">Full Name:</label>
+                     <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                 </div>
+
+                 <div class="form-group">
+                     <label for="email">Email Address:</label>
+                     <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                 </div>
+
+                 <div class="form-group">
+                     <label for="phone">Phone Number:</label>
+                     <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+                 </div>
+
+                 <div class="form-group">
+                     <label for="subject">Subject:</label>
+                     <input type="text" id="subject" name="subject" placeholder="Enter a subject">
+                 </div>
+
+                 <div class="form-group">
+                     <label for="message">Message:</label>
+                     <textarea id="message" name="message" rows="6" placeholder="Type your message here" required></textarea>
+                 </div>
+
+                 <div class="form-group">
+                     <label for="contact-method">Preferred Contact:</label>
+                     <select id="contact-method" name="contact-method">
+                         <option>Email</option>
+                         <option>Phone</option>
+                     </select>
+                 </div>
+
+                 <div class="form-group checkbox-group">
+                     <input type="checkbox" id="catering" name="catering">
+                     <label for="catering">I am interested in catering services</label>
+                 </div>
+
+                 <button type="submit">Submit</button>
+             </form>
+         </div>
+     </section>
+ </main>
+ <div class="bottom">
+     <p>@2026 El Hermanos Tacos</p>
+ </div>
 </body>
 </html>
