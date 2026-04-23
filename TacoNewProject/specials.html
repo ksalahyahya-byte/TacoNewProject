@@ -4,8 +4,41 @@
     <meta charset="utf-8" />
     <title>Our Specials</title>
     <link rel="stylesheet" href="WebsiteStyle.css">
+    <style>
+        .section {
+            background-color: #ffcc99;
+            margin: 20px;
+            padding: 30px;
+            border: 1px solid #ccc;
+        }
+        .tab {
+            width: 320px;
+            border: 1px solid #fff4cc;
+            background-color: #fff4cc;
+        }
+        .tab img {
+            width: 300px;
+            height: 150px;
+            margin: 10px;
+            object-fit: cover;
+            display: block;
+        }
+        header {
+            background: repeating-linear-gradient( 90deg, #fff4cc 0px, #fff4cc 18px, #d9782d 18px, #d9782d 36px, #f3c7b4 36px, #f3c7b4 54px ) bottom / 100% 12px no-repeat, #b4432f;
+            color: #fff4cc;
+            text-align: center;
+            padding: 28px 20px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+        }
+    </style>
 </head>
 <body>
+
+    <header>
+        <h1>El Hermanos Tacos</h1>
+        <p>Specials</p>
+    </header>
+
     <nav>
         <a href="Home.html">Home</a>
         <a href="about.html">About</a>
@@ -15,7 +48,81 @@
         <a href="contact.html">Contact</a>
         <a href="cvSalah.html">CV - Salah</a>
         <a href="cvMalik.html">CV - Malik</a>
-
     </nav>
+
+    <section class="section">
+        <h2>Weekly Specials</h2>
+        <p>
+            We try to keep things simple and give people a reason to come back.
+            Some deals stay the same, and some change depending on what we are running that week.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Current Deals</h2>
+
+        <div class="tabs">
+            <div class="tab">
+                <h3>Taco Tuesday</h3>
+                <img src="https://familiakitchen.com/wp-content/uploads/2025/02/iStock-1430849921-Tacos-Taco-Tuesday-1024x683.jpg" alt="Taco Tuesday">
+                <p>
+                    On Tuesdays, tacos are cheaper so you can grab a few without spending too much.
+                </p>
+                <p>$2.99 each</p>
+            </div>
+
+            <div class="tab">
+                <h3>Birria Combo</h3>
+                <img src="https://thesaltedpepper.com/wp-content/uploads/2020/04/chimichanga-fb.jpg" alt="Birria Combo">
+                <p>
+                    Comes with a Birria Chimigama, fries, and a drink. Good if you want a full meal.
+                </p>
+                <p>$11.99</p>
+            </div>
+
+            <div class="tab">
+                <h3>Burrito Meal Deal</h3>
+                <img src="https://images.getbento.com/accounts/203365d0471312d42ea623bd251a4711/media/images/43617C0009.00_01_08_06.Still002.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600" alt="Burrito Meal Deal">
+                <p>
+                    A loaded burrito with a side and drink. Saves you a bit compared to ordering everything separate.
+                </p>
+                <p>$12.49</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Limited Time Item</h2>
+
+        <div class="tabs">
+            <div class="tab">
+                <h3>Spicy Hermano Taco</h3>
+                <img src="https://www.sprinklesandsprouts.com/wp-content/uploads/2024/09/Spicy-Chicken-Tacos-SQ.jpg" alt="Spicy Hermano Taco">
+                <p>
+                    Same as our main taco but with more heat. You gotta have the extra heast, for the extra kick.
+                </p>
+                <p>$5.49</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="tabs">
+            <div class="tab">
+                <h2>Student Special</h2>
+                <img src="https://www.tablespoon.com/-/media/GMI/Core-Sites/TBSP/Images/Articles/Content/meals/snacks/pick-your-drink-and-well-find-you-a-taco/drink-taco_hero.jpg?sc_lang=en" alt="Student Special">
+                <p>
+                    A simple meal with a taco, fries, and a drink for a lower price.
+                    It is just something quick and easy.
+                </p>
+                <p><strong>$7.99</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <div class="bottom">
+        <p>2026 El Hermanos Tacos</p>
+    </div>
+
 </body>
 </html>
